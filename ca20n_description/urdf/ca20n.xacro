@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+
+<robot name="ca20n" xmlns:xacro="http://ros.org/wiki/xacro">
+	<xacro:include filename="$(find ca20n_description)/urdf/ca20n_macro.xacro" />
+	<xacro:ca20n prefix=""/>
+</robot>
